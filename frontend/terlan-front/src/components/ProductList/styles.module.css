@@ -1,0 +1,69 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.card {
+  width: 220px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img {
+  width: 180px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 1.1rem;
+  margin: 10px 0 8px 0;
+  color: var(--txt-black);
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.priceOld {
+  font-size: 1rem;
+  color: #8b8b8b;
+  text-decoration: line-through;
+}
+
+.discont {
+  color: var(--green);
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.cartBtn {
+  background: var(--green);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 9px 22px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.cartBtn:hover {
+  background: #2c7a2c;
+}
